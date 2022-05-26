@@ -2,7 +2,7 @@
 
 /* FONTS */
 /* Plus Jakarta Sans */
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
 
 
 /* VARIABLES */
@@ -13,6 +13,7 @@
 
   /* Font Weights */
   --fw-medium: 500;
+  --fw-bold: 700;
   --fw-extra-bold: 800;
 
   /* Colors */
@@ -44,4 +45,244 @@ html {
   font-family: var(--main-font-family);
   font-size: 16px;
   font-weight: var(--fw-medium);
+  background-color: var(--main-light-color);
+  color: var(--main-dark-color);
 }
+
+
+/* Main Header */
+.main-header {
+  margin: 1rem 1rem 2.375rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Main Logo */
+.main-logo {
+  height: 2.1875rem;
+  width: 5.5625rem;
+  background-repeat: no-repeat;
+  background-origin: center;
+  background-size: contain;
+}
+
+
+/* Logo Dark */
+.logo-dark {
+  background-image: url(../assets/logo-dark.svg);
+}
+
+
+/* Get Started Button */
+.get-started-btn {
+  height: 3rem;
+  width: 8.75rem;
+  border-radius: 1.75rem;
+  line-height: 1.75rem;
+  font-weight: var(--fw-bold);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-light-color);
+}
+
+
+/* Button Dark */
+.btn-dark {
+  background-color: var(--main-dark-color);
+}
+
+
+/* Main-Info Copy Container */
+.main-info-copy-container {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+
+/* Main Headline h1 */
+.main-headline {
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  font-weight: var(--fw-extra-bold);
+}
+
+
+/* Main Info Copy */
+.main-info-copy {
+  margin-top: 1.625rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.625rem;
+  color: var(--main-nuetral-color);
+}
+
+
+/* Pink Button */
+.btn-pink {
+  height: 3.5rem;
+  width: 10.4375rem;
+  border-radius: 1.96875rem;
+  background: linear-gradient(180deg, var(--orange-gradient-color) 0%, var(--pink-gradient-color) 100%);
+}
+
+
+/* Hero Container */
+.hero-container {
+  height: 20.4375rem;
+  /* width: auto; */
+  margin-top: 2.875rem;
+}
+
+
+/* Hero Image */
+.hero-image {
+  background-image: url(../assets/image-hero-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 23.4375rem 21.8125rem; */
+  height: 100%;
+}
+
+
+/* Courses Container */
+.courses-container {
+  background: linear-gradient(180deg, var(--main-light-color) 0%, var(--secondary-light-color) 100%);
+  padding: 0rem 1rem 5rem 1rem;
+}
+
+
+/* Course Info Headline Container */
+.course-info-headline-container {
+  height: 7.5rem;
+  border-radius: 0.625rem;
+  /* margin-bottom: 2.5rem; */
+  background: linear-gradient(180deg, var(--orange-gradient-color) 0%, var(--pink-gradient-color) 100%);
+  color: var(--main-light-color);
+}
+
+
+/* Course Info Headline h2 */
+.course-info-headline {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: var(--fw-extra-bold);
+  padding-top: 1.5rem;
+  padding-left: 1.75rem;
+}
+
+
+/* Course Container */
+.course-container {
+  height: 16.1875rem;
+  margin-top: 2.5rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  background-color: var(--main-light-color);
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 0.625rem;
+  position: relative;
+
+}
+
+
+/* Course Icon */
+.course-icon {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  background: linear-gradient(180deg, var(--orange-gradient-color) 0%, var(--pink-gradient-color) 100%);
+  position: relative;
+  top: -1.75rem;
+}
+
+
+/* COURSE ICONS */
+
+
+/* Animation Icon */
+.animation-course-icon {
+  background-image: url(../assets/icon-animation.svg);
+}
+
+
+/* Design Icon */
+.design-course-icon {
+  background-image: url(../assets/icon-design.svg);
+}
+
+
+/* Photography Icon */
+.photography-course-icon {
+  background-image: url(../assets/icon-photography.svg);
+}
+
+/* Crypto Icon */
+.crypto-course-icon {
+  background-image: url(../assets/icon-crypto.svg);
+}
+
+
+/* Business Icon */
+.business-course-icon {
+  background-image: url(../assets/icon-business.svg);
+}
+
+
+/* Course Copy Container */
+.course-copy-container {
+  height: 10.6875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* Course Title h3 */
+.course-title {
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  font-weight: var(--fw-extra-bold);
+}
+
+
+/* Course Copy */
+.course-copy {
+  line-height: 1.625rem;
+  color: var(--main-nuetral-color);
+}
+
+
+/* Course Container Get Started Button */
+.course-container-get-started-btn {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: var(--fw-bold);
+  color: var(--course-container-get-started-btn-color);
+}
+
+
+/* Footer */
+.main-footer {
+  height: 7.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: var(--main-dark-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Light Logo */
+.logo-light {
+  background-image: url(../assets/logo-light.svg);
+}
+
+
+/* Blue Button */
+.btn-blue {
+  background: linear-gradient(180deg, var(--purple-gradient-color) 0%, var(--pink-gradient-color) 100%);
+}
+
