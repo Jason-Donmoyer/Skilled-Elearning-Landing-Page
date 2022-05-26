@@ -286,3 +286,113 @@ html {
   background: linear-gradient(180deg, var(--purple-gradient-color) 0%, var(--pink-gradient-color) 100%);
 }
 
+
+/* ################################################################## */
+                        /* MEDIA QUERIES */
+/* ################################################################## */
+
+
+/* TABLET */
+/* 768px */
+
+@media screen and (min-width: 768px) {
+  
+
+  /* Main Header */
+  .main-header {
+    margin: 1.5rem 2.5rem 0rem 2.5rem;
+  }
+
+
+  /* Main Info Container */
+  .main-info-container {
+    height: 43.4375rem;
+    margin-left: 2.5rem;
+    margin-bottom: -6.25rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -6.25rem;
+    overflow: hidden;
+  }
+
+
+  /* Main Info Copy Container */
+  .main-info-copy-container {
+    height: 17.75rem;
+    min-width: 24.875rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+ 
+  /* Main Info Copy */
+  .main-info-copy {
+    margin-top: 1.5625rem;
+  }
+
+
+  /* Hero Container */
+  .hero-container {
+    height: 40rem;
+    min-width: 40rem;
+    position: relative;
+    top: -7.5rem;
+    left: -3.75rem;
+  }
+
+
+  /* Hero Image */
+  .hero-image {
+    background-image: url(../assets/image-hero-tablet.png);
+    background-position: initial;
+  }
+
+
+  /* Courses Container */
+  .courses-container {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+
+  /* Course Info Headline Container and Course Container*/
+  .course-info-headline-container,
+  .course-container {
+    height: 16.1875rem;
+    width: 21.25rem;
+  }
+
+
+  /* Course Info Headline Container */
+  .course-info-headline-container {
+    margin-top: 2.5rem;
+  }
+
+
+  /* Footer */
+  .main-footer {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+
+
+}
+
+
+/* Ipad Air */
+/* 820px */
+@media screen and (min-width: 819px) {
+
+
+  /* Main Info Container */
+  .main-info-container {
+    top: -4rem;
+  }
+
+
+}
+
